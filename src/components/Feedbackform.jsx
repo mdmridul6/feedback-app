@@ -28,7 +28,9 @@ function Feedbackform({ handleAdd }) {
         text: text,
         rating: selectRate,
       };
+
       handleAdd(newFeedBack);
+      settext("");
     }
   };
   return (
